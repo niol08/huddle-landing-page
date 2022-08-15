@@ -1,0 +1,1012 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  // overflow: auto;
+}
+
+$primary-Pink: hsl(322, 100%, 66%);
+$primary-Light-Pink: hsl(321, 100%, 78%);
+$primary-Light-Red: hsl(0, 100%, 63%);
+$neutral-Very-Dark-Cyan: hsl(192, 100%, 9%);
+$neutral-Very-Pale-Blue: hsl(207, 100%, 98%);
+$font-weight-body-light: 400;
+$font-weight-body-medium: 600;
+$font-weight-body-heavy: 700;
+$font-weight-header: 700;
+
+img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.img2 {
+  display: none;
+}
+
+.img1 {
+  display: block;
+}
+
+body {
+  line-height: 1.3;
+  //height: 100vh;
+}
+
+.error {
+  display: none;
+}
+
+nav {
+  margin: 30px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+div {
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+}
+.logo {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav div a {
+  font-weight: $font-weight-body-light;
+  font-family: "Red Hat Display", sans-serif;
+  color: $primary-Pink;
+  font-size: smaller;
+}
+
+.trial {
+  margin-left: auto;
+  border: 2px $primary-Pink solid;
+  border-radius: 50px;
+  padding: 2px 20px;
+  max-width: 150px;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 2.5em;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-header;
+  font-size: x-large;
+  padding: 0 10px;
+  width: 300px;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-body-medium;
+  font-size: small;
+  width: 300px;
+  //padding: 0 2em;
+  opacity: 0.8;
+}
+
+.trial2 a {
+  font-weight: $font-weight-body-medium;
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+  font-size: x-small;
+  //letter-spacing: 1px;
+}
+
+.trial2 {
+  text-align: center;
+  background-color: $primary-Pink;
+  border-radius: 50px;
+  padding: 7px 10px;
+  width: 150px;
+  margin: 3em auto;
+  box-shadow: 1px 5px 2px $neutral-Very-Pale-Blue;
+}
+
+.mockup {
+  margin: 5em auto;
+  width: 250px;
+}
+
+.figures {
+  width: 7em;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 20px;
+}
+
+.number {
+  font-size: 250%;
+  font-weight: $font-weight-header;
+  font-family: "Red Hat Display", sans-serif;
+  overflow: hidden;
+}
+
+.caption {
+  text-align: center;
+  font-size: small;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-body-light;
+  opacity: 0.3;
+}
+
+.number-top {
+  margin-bottom: 50px;
+}
+
+.number-bottom {
+  margin-bottom: 50px;
+}
+
+.curve1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.subsection {
+  background-color: $neutral-Very-Pale-Blue;
+}
+
+.illustration {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.illustration-h {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-header;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.illustration-p {
+  text-align: center;
+  font-size: small;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-body-light;
+  opacity: 0.7;
+  width: 300px;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.curve2 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.illustration3 {
+  width: 200px;
+  margin: 50px auto;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+.illustration4 {
+  width: 200px;
+  margin: 50px auto;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+h2 {
+  margin: 0 auto;
+  margin-top: 2.5em;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-header;
+  font-size: x-large;
+  padding: 0 20px;
+  width: 300px;
+}
+
+.trial3 a {
+  font-weight: $font-weight-body-medium;
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+  font-size: x-small;
+  //letter-spacing: 1px;
+}
+
+.trial3 {
+  text-align: center;
+  background-color: $primary-Pink;
+  border-radius: 50px;
+  width: 150px;
+  padding: 7px 10px;
+  margin: 2em auto;
+  box-shadow: 1px 5px 2px $neutral-Very-Pale-Blue;
+  margin-bottom: 10em;
+}
+
+.section6 {
+  background-color: $neutral-Very-Dark-Cyan;
+  color: white;
+}
+
+.logo2 {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102%) contrast(102%);
+}
+
+h3 {
+  width: 80%;
+  text-align: left;
+  margin: 10px auto;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: $font-weight-body-medium;
+  font-size: medium;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.h3p {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: $font-weight-body-medium;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: x-small;
+  line-height: 1.5;
+}
+
+form {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.form {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  width: 120px;
+  height: 35px;
+  color: white;
+  background-color: $primary-Pink;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: $font-weight-body-medium;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: small;
+}
+
+.submitp {
+  width: 120px;
+  margin-left: auto;
+}
+
+.final {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.flogo {
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.pfinal {
+  font-weight: $font-weight-body-medium;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: x-small;
+  text-align: left;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  p.pgraph {
+    font-size: x-small;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: $font-weight-body-light;
+    margin-left: 15px;
+  }
+}
+
+.iconc {
+  width: 15px;
+}
+
+#iconm {
+  margin-bottom: 15px;
+}
+
+.socials {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.isocials {
+  font-size: 20px;
+}
+
+#instagram {
+  margin: 0 5px;
+}
+
+.section1 {
+  overflow: hidden;
+}
+@media screen and (min-width: 481px) and (max-width: 1220px) {
+  .img2 {
+    display: block;
+  }
+
+  .img1 {
+    display: none;
+  }
+  body {
+    line-height: 1.4;
+  }
+  .logo {
+    width: 150px;
+  }
+  h1 {
+    width: 100%;
+    padding: 0 5%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .content {
+    width: 450px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .trial2 {
+    width: 200px;
+    margin: 2em auto;
+  }
+  .trial2 a {
+    font-size: small;
+  }
+
+  .mockup {
+    margin: 3em auto;
+    min-width: 450px;
+    width: 60%;
+  }
+  .figures {
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .number-bottom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    width: 30px;
+  }
+  .figures {
+    font-size: 20px;
+  }
+  .number-top {
+    padding: 0.3em;
+  }
+  .number-bottom {
+    padding: 0.3em;
+  }
+  .caption {
+    font-size: medium;
+    text-align: left;
+  }
+
+  #subsection1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  #illustration1 {
+    width: 40%;
+    min-width: 200px;
+  }
+  #illustrationcontent1 {
+    width: 40%;
+    min-width: 200px;
+    order: -1;
+    margin-left: 3%;
+    margin-right: auto;
+  }
+  .illustration-h {
+    font-size: x-large;
+    text-align: left;
+    width: 100%;
+  }
+  .illustration-p {
+    font-size: medium;
+    text-align: left;
+    width: 100%;
+  }
+  #subsection2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 80px;
+  }
+
+  #illustration2 {
+    width: 40%;
+    min-width: 200px;
+    margin: 0;
+    margin-left: 3%;
+  }
+
+  #illustrationcontent2 {
+    width: 40%;
+    min-width: 200px;
+    margin-right: 3%;
+    margin-left: auto;
+  }
+  #subsection3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+  }
+
+  #illustration3 {
+    width: 40%;
+    min-width: 200px;
+  }
+
+  #illustrationcontent3 {
+    width: 40%;
+    min-width: 200px;
+    order: -1;
+    margin-left: 3%;
+    margin-right: auto;
+  }
+  .section5 {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: x-large;
+  }
+
+  .trial3 {
+    width: 200px;
+    margin-top: 1em;
+  }
+
+  .trial3 a {
+    font-size: small;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  form {
+    width: 100%;
+  }
+  .flogo {
+    width: auto;
+    min-width: 80px;
+    max-width: 150px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+  #final {
+    order: -1;
+    width: 45%;
+    margin-left: 3%;
+  }
+
+  #newsletter {
+    margin: 0;
+    padding: 0;
+    margin-right: 3%;
+    margin-left: auto;
+    width: 45%;
+  }
+
+  .pfinal {
+    font-size: medium;
+    font-weight: $font-weight-body-light;
+  }
+
+  .iconc {
+    width: 20px;
+  }
+  .contact {
+    p.pgraph {
+      font-size: small;
+      font-weight: $font-weight-body-light;
+    }
+  }
+
+  #socialicons {
+    margin-left: 3%;
+  }
+
+  #instagram {
+    margin: 0 10px;
+  }
+
+  .isocials {
+    font-size: 30px;
+  }
+
+  .h3 {
+    font-size: large;
+    text-align: left;
+    width: 100%;
+  }
+
+  .h3p {
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    font-weight: $font-weight-body-light;
+  }
+
+  .formp {
+    width: 100%;
+  }
+
+  .submitp {
+    width: 100%;
+  }
+  .submit {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+  }
+  .error {
+    display: none;
+    font-size: x-small;
+    color: $primary-Light-Red;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: left;
+    margin: 0;
+  }
+  .form:hover {
+    border: 1px solid $primary-Light-Red;
+  }
+
+  .form:hover + .error {
+    display: block;
+  }
+  .trial:hover {
+    border-color: $primary-Light-Pink;
+  }
+
+  .trial:hover > a {
+    color: $primary-Light-Pink;
+  }
+
+  .trial2:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  .trial3:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  .submit:hover {
+    filter: brightness(0.9);
+  }
+
+  .submit:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  #facebook:hover {
+    color: #4267b2;
+  }
+
+  #instagram:hover {
+    color: #e1306c;
+  }
+
+  #twitter:hover {
+    color: #1da1f2;
+  }
+}
+
+@media screen and (min-width: 1221px) and (max-width: 1440px) {
+  body {
+    display: grid;
+    grid-template-columns: 10px 40px 60px 1fr 1fr 60px 40px 10px;
+    grid-template-rows: 100px 10px 1600px auto 500px auto 400px auto;
+    grid-gap: 0;
+  }
+
+  nav {
+    grid-column: 2 / 8;
+    grid-row: 1 / 2;
+  }
+
+  .section1 {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    overflow: hidden;
+  }
+
+  .section2 {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+  }
+
+  .section3 {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
+
+  .section4 {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+  }
+
+  .section5 {
+    grid-column: 3 / 7;
+    grid-row: 7 / 8;
+  }
+
+  footer {
+    grid-column: 1 / -1;
+    grid-row: 8 / 9;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  h1 {
+    width: 100%;
+    padding: 0 5%;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .content {
+    width: 700px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .trial2 {
+    width: 200px;
+    margin: 2em auto;
+  }
+
+  .mockup {
+    margin: 3em auto;
+    width: 80%;
+  }
+  .figures {
+    width: 80%;
+    display: flex;
+  }
+
+  .number-bottom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon {
+    width: 50px;
+  }
+  .figures {
+    font-size: 30px;
+  }
+
+  .caption {
+    font-size: large;
+    text-align: left;
+  }
+
+  .trial2 a {
+    font-size: small;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+  }
+
+  #subsection1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #illustration1 {
+    width: 500px;
+  }
+
+  #illustrationcontent1 {
+    width: 40%;
+    order: -1;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .illustration-h {
+    font-size: xx-large;
+    text-align: left;
+    width: 100%;
+  }
+
+  .illustration-p {
+    font-size: large;
+    text-align: left;
+    width: 100%;
+  }
+
+  #subsection2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 80px;
+  }
+
+  #illustration2 {
+    width: 500px;
+    margin: 0;
+    margin-left: 5%;
+  }
+
+  #illustrationcontent2 {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: auto;
+  }
+
+  #subsection3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+  }
+
+  #illustration3 {
+    width: 500px;
+  }
+
+  #illustrationcontent3 {
+    width: 40%;
+    order: -1;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .section5 {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: xx-large;
+    //text-transform: uppercase;
+  }
+
+  .trial3 {
+    width: 200px;
+    margin: 1em auto;
+  }
+
+  .trial3 a {
+    font-size: small;
+  }
+
+  .final {
+    width: 100%;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h3p {
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+  }
+
+  .section6 {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #final {
+    order: -1;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  #newsletter {
+    margin: 0;
+    padding: 0;
+    //width: 100%;
+    margin-right: 10%;
+    margin-left: auto;
+    width: 40%;
+  }
+
+  .flogo {
+    width: 200px;
+  }
+
+  .pfinal {
+    font-size: medium;
+    font-weight: $font-weight-body-light;
+  }
+
+  .iconc {
+    width: 25px;
+  }
+  .contact {
+    p.pgraph {
+      font-size: medium;
+      font-weight: $font-weight-body-medium;
+    }
+  }
+
+  #socialicons {
+    margin-left: 10%;
+  }
+
+  #instagram {
+    margin: 0 10px;
+  }
+
+  .isocials {
+    font-size: 30px;
+  }
+
+  form {
+    display: flex;
+  }
+
+  .h3 {
+    font-size: large;
+  }
+
+  .h3p {
+    //width: 70%;
+    padding-right: 30%;
+    text-align: left;
+    font-size: small;
+    font-weight: $font-weight-body-light;
+  }
+
+  .formp {
+    width: 65%;
+  }
+
+  .submitp {
+    width: 30%;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .error {
+    display: none;
+    font-size: x-small;
+    color: $primary-Light-Red;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: left;
+    margin: 0;
+  }
+
+  .form:hover {
+    border: 1px solid $primary-Light-Red;
+  }
+
+  .form:hover + .error {
+    display: block;
+  }
+
+  .form {
+    margin-bottom: 0;
+  }
+
+  .trial:hover {
+    border-color: $primary-Light-Pink;
+  }
+
+  .trial:hover > a {
+    color: $primary-Light-Pink;
+  }
+
+  .trial2:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  .trial3:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  .submit:hover {
+    filter: brightness(0.9);
+  }
+
+  .submit:hover {
+    background-color: $primary-Light-Pink;
+  }
+
+  #facebook:hover {
+    color: #4267b2;
+  }
+
+  #instagram:hover {
+    color: #e1306c;
+  }
+
+  #twitter:hover {
+    color: #1da1f2;
+  }
+}

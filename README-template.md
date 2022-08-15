@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/niol08/huddle-landing-page.git](https://your-solution-url.com)
+- Live Site URL: [https://niol08.github.io/huddle-landing-page/](https://your-live-site-url.com)
 
 ## My process
 
@@ -43,10 +43,7 @@ Users should be able to:
 - Mobile-first workflow
 - fontawesome
 - googlefonts
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- scss
 
 ### Useful resources
 
